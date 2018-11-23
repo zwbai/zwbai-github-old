@@ -1,5 +1,517 @@
-<html>
-<body>
-    welcome to zwbai's website!
-</body>
-</html>
+<!--
+
+The website is built upon Bootstrap3, Font-awesome2.
+Great thanks for all of these open source guys.
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Zhaoyang Lv | Personal Website">
+	<meta name="author" content="Zhaoyang Lv">
+	<meta name="keywords" content="Zhaoyang Lv, gatech, robotics, computer vision" ">
+	<link rel="shortcut icon " href="images/favicon.ico ">
+
+	<title>Zhaoyang Lv</title>
+
+	<!--Use boostrap jquery component-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js "></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js "></script>
+
+	<!-- include bootstrap core CSS -->
+	<link href="3rdparty/dist/css/bootstrap.min.css " rel="stylesheet ">
+
+	<!-- include css -->
+	<link href="zhaoyang_css/zhaoyang_theme.css " rel="stylesheet ">
+
+	<!-- include font-awesom.min-css -->
+	<link href="3rdparty/font-awesome/css/font-awesome.min.css ", rel="stylesheet " >
+
+	<!-- include MathJax-->
+	<script type="text/javascript " async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML "> </script>
+
+	<!-- include Code highlight-->
+	<link rel="stylesheet " href="//cdn.jsdelivr.net/highlight.js/9.6.0/styles/default.min.css ">
+	<script src="//cdn.jsdelivr.net/highlight.js/9.6.0/highlight.min.js "></script>
+
+	<!--Use google +1 button-->
+	<script src="https://apis.google.com/js/platform.js " async defer></script>
+
+	<!-- Just for debugging purposes. Don't actually copy this line! -->
+	<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js "></script><![endif]-->
+
+	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js "></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js "></script>
+		<![endif]-->
+
+	</head>
+
+	<body>
+		<!-- This is for the navigation bar for all files. -->
+		<div class="navbar navbar-default navbar-fixed-top " id="top " role="navigation ">
+			<div class="container ">
+				<div class="navbar-header ">
+					<button type="button " class="navbar-toggle " data-toggle="collapse " data-target=".navbar-collapse ">
+						<span class="sr-only ">Toggle navigation</span>
+						<span class="icon-bar "> </span>
+						<span class="icon-bar "> </span>
+						<span class="icon-bar "> </span>
+					</button>
+					<a class="navbar-brand " href="# ">ZHAOYANG</a>
+				</div>
+
+				<nav class="navbar-collapse collapse " role="navigation ">
+					<ul class="nav navbar-nav ">
+						<li class="active ">
+							<a href="# ">HOME</a>
+						</li>
+						<li>
+							<a href="files/cv.pdf ", target="_blank ">CV</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+		<!-- end of navigation bar. -->
+
+		<div class="container ">
+
+			<div class="container theme-showcase " role="main ">
+				<div class="jumbotron ">
+					<div class="row ">
+
+						<div class="col-md-3 ">
+							<!-- Profile Image-->
+							<img class="img-thumbnail img-responsive " src="images/head.jpg " alt="Head Image ">
+						</div>
+
+						<div class="col-md-9 ">
+							<!-- General Introduction-->
+							<h2>
+								Zhaoyang Lv &nbsp
+								<a href="files/cv.pdf ", target="_blank "> <i class="fa fa-file-pdf-o fa-1x " style="color:red "></i> </a>
+							</h2>
+							<br>
+							<p style="font-size:16px ">
+								Research Assistant, Ph.D. in Robotics, Georgia Institute of Technology
+								<br>
+								<a href=" "> Wall Lab</a> & <a href="https://borg.cc.gatech.edu/ "> BORG Lab</a>, <a href="http://www.robotics.gatech.edu/ ">Institute for Robotics and Intelligent Machines</a>
+							</p>
+
+							<p class="text-muted " style="font-size:14px; ">
+								Previous Education:
+								<br>
+								M.Sc., Artificial Intelligence in Computing, Imperial College London
+								<br>
+								B.Sc., Electrical Engineering in Aeronauntics, Northwestern Polytechnical University</h5>
+								<br>
+							</p>
+
+							<!-- Add the like button -->
+							<!-- <div class="row ">
+								<div class="col-md-3 ">
+									<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.cc.gatech.edu/~zlv30&amp;layout=button_count&amp;show_faces=true&amp;action=like&amp;colorscheme=light&amp
+	 " style="overflow:hidden;width:100%;height:40px; " scrolling="no " frameborder="0 " allowTransparency="true "></iframe>
+								</div>
+								<div class="col-md-3 ">
+									<div class="g-plusone " data-href="http://www.cc.gatech.edu/~zlv30 ", data-size="medium "></div>
+								</div>
+							</div> -->
+						</div>
+					</div>
+
+					<hr class="featurette-divider ">
+
+					<div class = "row ">
+
+						<div class="col-md-9 ">
+							<!-- Personal Information -->
+							<p style="font-size:14px ">
+								I am a Ph.D. student in Robotics at Georgia Tech, School of Interactive Computing, jointly advised by <a href="http://rehg.org/
+	 ", target="_blank "> Prof. James Rehg</a>, and
+								<a href="http://www.cc.gatech.edu/~dellaert/FrankDellaert/Frank_Dellaert/Frank_Dellaert.html ", target="_blank
+	 "> Prof. Frank Dellaert</a>. Before I started my Phd at Gatech, I finished my Master thesis under the supervision of <a href="https://www.doc.ic.ac.uk/~ajd/ ", target="_blank "> Prof. Andrew Davison</a> at Imperial College London. <br>
+								<br>
+								Currently, I am a Phd intern working with <a href="https://ps.is.tue.mpg.de/~ageiger"> Prof. Andreas Geiger</a> at <a href="http://www.cvlibs.net/"> Autonomous Vision Group (AVG) </a> Max Planck Institute. <br>
+								<br>
+								My research interests cover computer vision researches as the perception for robot systems, particularly in the 3D scene understanding that can bridge perception to planning and control.
+
+								My current focus is to explore efficient approaches for dense 3D motion (scene flow) from videos, which is the core of my thesis topic. My strenghts are in the following fields:
+								<li>
+									3D Scene Flow, Optical Flow and Stereo.
+								</li>
+								<li>
+									Semantic Scene Understanding
+								</li>
+								<li>
+									Structure from Motion, Simultaneous Localization and Mapping
+								</li>
+							</p>
+							<br>
+						</div>
+
+						<div class="cols-md-3 ">
+							<address>
+								<strong>Office Address:</strong>
+								<br> <a href = "http://www.ic.gatech.edu/ ", target="_blank ">College of Computing Building</a> / <br>
+								<a href = "http://www.robotics.gatech.edu/ ", target="_blank "> Robotics & Intelligent Machines Center </br>
+								</a>
+								801 Atlantic Drive, Rm. 273B
+								<br>
+								Atlanta, Georgia, U.S., 30308
+								<br>
+								<br>
+
+								<strong>Email:</strong>
+								<a href="mailto:lvzhaoyang1990@gmail.com ">lvzhaoyang1990 at gmail dot com</a> <br>
+								<a href="mailto:zhaoyang.lv@gatech.edu ">zhaoyang dot lv at gatech dot edu</a>
+								<br>
+								<br>
+								<strong>Mobile:</strong>
+								404-3458841
+
+							</address>
+						</div>
+					</div>
+				</div>
+
+				<div class='bs-docs-section'>
+
+				<div class="row featurette ">
+					<div align="center ">
+						<h3 id="projects ", class="page-header "> PUBLICATIONS </h3> </br>
+					</div>
+
+					<!-- eccv18 -->
+					<div class="row featurette ">
+						<div class="col-md-3 ">
+							<a href="#" target="_blank ">
+								<img class="img-thumbnail img-responsive " src="images/eccv18figs/overview.png ">
+							</a>
+						</div>
+						<div class="col-md-8 ">
+							<h4 class="featurette-heading "> Learning Rigidity in Dynamic Scenes with a Moving Camera for 3D Motion Field Estimation </h4>
+							<h5 class="text-muted "> Zhaoyang Lv, Kihwan Kim, Alejandro Troccoli, Deqing Sun, James M. Rehg, Jan Kautz </h5>
+							<h5> <a href='http://openaccess.thecvf.com/content_ECCV_2018/papers/Zhaoyang_Lv_Learning_Rigidity_in_ECCV_2018_paper.pdf'>European Conference on Computer Vision 2018 <i class="fa fa-file-pdf-o fa-1x " style="color:red "></i>, <a href='https://arxiv.org/abs/1804.04259'> arXiv 1804.04259 <i class="fa fa-file-pdf-o fa-1x " style="color:red "></i> </h5>
+							<h5> <a href="https://mlatgt.blog/2018/09/06/learning-rigidity-and-scene-flow-estimation/">
+							A blog post on Machine Learning @ Georgia Tech <i class="fa fa-wordpress fa-1x"></i> </h5>
+							<h5> <a href="http://research.nvidia.com/publication/2018-09_Learning-Rigidity-in" target="_blank "> Project Page <i class="fa fa-home fa-1x " aria-hidden="true "> </i> </a>,
+								<a href="https://youtu.be/MnTHkOCY790" target="_blank "> Video <i class="fa fa-youtube-play fa-1x " style="color:red "> </i> </a>, Code:
+								<a href="https://github.com/NVlabs/learningrigidity" target="_blank"> Rigidity and scene flow <i class="fa fa-github fa-1x" style="color:black "></i> </a> ;
+								<a href="https://github.com/lvzhaoyang/RefRESH" target="_blank"> RefRESH dataset creation toolkit <i class="fa fa-github fa-1x" style="color:black "></i> </a>
+							</h5>
+							<h5>
+								<a href="http://on-demand.gputechconf.com/gtc/2018/presentation/s8798-learning-rigidity-in-dynamic-scenes-for-scene-flow-estimation-v2.pdf
+								" target="_blank "> Nvidia GTC 2018 Presentation Slides (Credit to Kihwan) <i class="fa fa-file-pdf-o fa-1x " style="color:red "> </i> </a>
+							</h5>
+						</div>
+					</div>
+
+					<hr class="featurette-divider ">
+
+					<!-- eccv16 -->
+					<div class="row featurette ">
+						<div class="col-md-3 ">
+							<a href="project/Lv16eccv.html " target="_blank ">
+								<img class="img-thumbnail img-responsive " src="images/eccv16figs/pipeline.png ">
+							</a>
+						</div>
+						<div class="col-md-8 ">
+							<h4 class="featurette-heading "> A Continuous Optimization Approach for Efficient and Accurate Scene Flow </h4>
+							<h5 class="text-muted "> Zhaoyang Lv, Chris Beall, Pablo F. Alcantarilla, Fuxin Li, Zsolt Kira, Frank Dellaert </h5>
+							<h5> <a href="http://link.springer.com/chapter/10.1007/978-3-319-46484-8_46/fulltext.html " target="_blank
+	 "> European Conference on Computer Vision 2016 <i class="fa fa-file-pdf-o fa-1x " style="color:red "></i> </a>,
+							<a href='http://arxiv.org/abs/1607.07983'> arXiv 1607.07983 <i class="fa fa-file-pdf-o fa-1x " style="color:red "></i> </h5>
+							<h5> <a href="project/Lv16eccv.html " target="_blank "> Project Page <i class="fa fa-home fa-1x " aria-hidden="true "> </i> </a> </h5>
+						</div>
+					</div>
+
+					<hr class="featurette-divider ">
+
+					<!-- Transfer Learning -->
+					<div class="row featurette ">
+						<div class="col-md-3 ">
+							<a href="# " target="_blank ">
+								<img class="img-thumbnail img-responsive " src="images/cvpr17figs/visualization.png ">
+							</a>
+						</div>
+						<div class="col-md-8 ">
+							<h4 class="featurette-heading "> Learning to Cluster in Order to Transfer across Domains and Tasks
+							</h4>
+							<h5 class="text-muted "> Yen-Chang Hsu, Zhaoyang Lv, Zsolt Kira </h5>
+							<h5> <a href="https://arxiv.org/abs/1711.10125 " target="_blank
+	"> International Conference on Learning Representations 2018 (arXiv:1711.10125) <i class="fa fa-file-pdf-o fa-1x " style="color:red "></i> </a> </h5>
+	<h5> <a href="https://github.com/GT-RIPL/L2C" target="_blank"> Code <i class="fa fa-github fa-1x" style="color:black "></i> </a>, <a href="https://mlatgt.blog/2018/04/29/learning-to-cluster/" target="_blank"> A blog post on Machine Learning @ Gerogia Tech <i class="fa fa-wordpress fa-1x"></i> </a> </h5>
+	<!-- Nav tabs -->
+						</div>
+						<div class="col-md-8 ">
+							<h4 class="featurette-heading "> Deep Image Category Discovery using a Transferred Similarity Function
+							</h4>
+							<h5 class="text-muted "> Yen-Chang Hsu, Zhaoyang Lv, Zsolt Kira </h5>
+							<h5> <a href="http://arxiv.org/abs/1612.01253 " target="_blank "> arXiv:1612.01253  <i class="fa fa-file-pdf-o
+	fa-1x " style="color:red "></i> </a></h5>
+						<!-- Nav tabs -->
+
+
+						</div>
+					</div>
+					</div>
+
+
+						<div align="center ">
+							<h3 id="projects ", class="page-header "> MAJOR PROJECTS </h3> </br>
+						</div>
+						<!-- this is the NRI project -->
+						<div class="row featurette ">
+							<div class="col-md-2 ">
+								<img class="img-thumbnail img-responsive " src="images/georgia_tech_bird_view.png " alt="Georgia_tech_bird_view ">
+							</div>
+							<div class="col-md-10 ">
+								<h4 class="featurette-heading "> Large-Scale Collaborative Semantic Mapping using 3D
+									Structure from Motion Data
+								</h4>
+									<h5> Advisors:
+									<a href="http://rehg.org/ ", target="_blank ">Prof. James Rehg</a>,
+									<a href="http://www.cc.gatech.edu/~dellaert/FrankDellaert/Frank_Dellaert/Frank_Dellaert.html ", target="_blank ">Prof. Frank Dellaert</a>,
+									<a href="http://www.zsoltkira.com/ ", target="_blank ">Dr. Zsolt Kira</a>
+									</h5>
+
+									<p> A NSF project I am currently working on. My focus is dense 3D scene flow and dynamic 3D mapping.
+										<ul>
+											<li>
+												Reconstruct the Georgia tech campus with stereo images only. <a href="https://www.youtube.com/watch?v=g7XZQoxDBbU
+	 ", target="_blank "> <i class="fa fa-youtube-play fa-1x " style="color:red "></i> Dense Stereo Reconstruction of Georgia Tech </a>
+											</li>
+											<li>
+												Dense 3D scene flow estimation in urban environment.
+											</li>
+										</ul>
+									</p>
+
+								</div>
+							</div>
+
+							<!-- this is the Master thesis project-->
+
+							<hr class="featurette-divider ">
+
+							<div class="row featurette ">
+								<div class="col-md-2 ">
+									<img class="img-thumbnail img-responsive " src="images/KinfuSeg.png " alt="KinfuSeg System Image ">
+								</div>
+								<div class="col-md-10 ">
+									<h4 class="featurette-heading "> KinfuSeg: A Dynamic SLAM Approach Based on KinectFusion
+										<a href="http://www.doc.ic.ac.uk/teaching/distinguished-projects/2013/l.zhaoyang.pdf ", target="_blank
+	 "> <i class="fa fa-file-pdf-o fa-1x " style="color:red "></i> </a>
+										<a href="http://www.youtube.com/watch?v=gphF88LtHuM ", target="_blank "> <i class="fa fa-youtube-play fa-1x
+	 " style="color:red "></i> </a> </h4>
+										<h5> Master Thesis, Imperial College London </h5>
+										<h5> Distinguished Thesis in Department of Computing (3 among 71), Top 5% </h5>
+										<h5> Advisor: <a href="http://www.doc.ic.ac.uk/~ajd/ ", target="_blank ">Prof. Andrew Davison</a></h5>
+										<p>
+											Traditional SLAM methods works under the assumption that the evironment is totally static. When the scene is dynamic, both tracking and mapping will fail. In this project, this system is able to achieve:
+											<ul>
+												<li>
+													Tracks the static scene, while segment out the dynamic object.
+												</li>
+												<li>
+													The first solution to real-time fuse dense 3D map for both static and dynamic scenes.
+												</li>
+											</ul>
+										</p>
+										<br>
+									</div>
+								</div>
+
+										<hr class="featurette-divider ">
+
+										<div class="row featurette ">
+											<!-- this is the bachelor thesis project-->
+
+											<div class="col-md-2 ">
+												<img class="img-thumbnail img-responsive " src="images/quadrotor.png " alt="Bachelor Quadrotor ">
+											</div>
+
+											<div class="col-md-10 ">
+												<h4 class="featurette-heading "> Quadrotor Design and its Navigation
+													<a href="https://www.youtube.com/watch?v=1l_rCi7usAQ ", target="_blank "> <i class="fa fa-youtube-play fa-1x
+	 " style="color:red "> </i> </a> </h4>
+													<h5>Bachelor Thesis, Northwestern Polytechnical University </h5>
+													<h5> Advisor: Prof. Zhenbao Liu, Prof. Shuhui Bu, Prof. Xiaojun Tang </h5>
+
+													<p>
+														The goal of this project is to build up a quad-rotor, with basic navigation and flight control system. The quad-rotor is able to achieve a stable flight with joystick control and hover autonomously.
+													</p>
+													<br>
+												</div>
+											</div>
+											<!-- this is the bachelor thesis project-->
+
+										</div>
+										<!-- the end of all projects -->
+
+										<!-- Work Experience -->
+										<div align="center ">
+											<h3 id="projects ", class="page-header "> INTERNSHIP </h3> </br>
+										</div>
+
+										<!-- Internships -->
+
+										<div class="row featurette ">
+											<div class="col-md-1 ">
+												<img class="img-thumbnail img-responsive " src="images/mpi.jpeg ">
+											</div>
+											<div class="col-md-11 ">
+												<h4 class="featurette-heading ">  Autonomous Vision Group, Max Planck Institute for Inteliigent System, Tubingen, Now </h5>
+												<h5>Advisor: <a href='https://avg.is.tuebingen.mpg.de/person/ageiger'> Prof. Andreas Geiger</a> </h5>
+											</div>
+										</div>
+
+										<hr class="featurette-divider "> </hr>
+
+										<div class="row featurette ">
+											<div class="col-md-1 ">
+												<img class="img-thumbnail img-responsive " src="images/nvidia.jpeg ">
+											</div>
+											<div class="col-md-10 ">
+												<h4 class="featurette-heading ">  Nvidia Research, Santa Clara, May 2017 - Aug. 2017 </h5>
+												<h5>Learning Dense Scene Flow Fields from RGB-D Images </h4>
+												<h5>Director: <a href='http://jankautz.com/'> Jan Kautz</a> </h5>
+												<h5> Mentors: <a href="https://www.cc.gatech.edu/~kihwan23/ ", target="_blank ">Kihwan Kim</a>, <a href='http://people.seas.harvard.edu/~dqsun/'>Deqing Sun</a>, <a href='https://www.linkedin.com/in/alejandrotroccoli/'>Alejandro Troccoli</a> </h5>
+
+												I work in the Visual Computing and Machine Learning Research group, about the research problem learning scene flow from RGB-D images. Our learning based approach outperforms all existing approaches in terms of accuracy and robustness, and can generalize well to different challenging scenes.
+											</div>
+										</div>
+
+										<hr class="featurette-divider "> </hr>
+										<div class="row featurette ">
+
+											<div class="col-md-1 ">
+												<img class="img-thumbnail img-responsive " src="images/qualcomm.png ">
+											</div>
+											<div class="col-md-11 ">
+												<h4 class="featurette-heading "> Qualcomm Research, Greater San Diego, May 2016 - Aug. 2016 </h4>
+												<h5> Sensor Fusion & Planning in Autonomous Vehicle </h5>
+												<h5> Manager: <a href="http://people.lids.mit.edu/aliagha/ ", target="_blank ">Dr. Ali Agha</a> </h5>
+
+												I work in the Sensor Fusion and Motion Planning group. I proposed a factor graph representation for joint intention prediction and motion planning algorithm.
+												<li>
+													Submitted two first author patents about joint intention prediction and motion planning, which have been approved.
+												</li>
+												<li>
+													I also participated a 16-hour Qualcomm Hack-Mobile event. And our proposed distaster rescue on-site system won finalists (3/50 teams) in the hackthon event.
+												</li>
+											</div>
+										</div>
+
+											<hr class="featurette-divider "> </hr>
+											<!-- Research Project at Zhejiang University -->
+											<div class="row featurette ">
+												<div class="col-md-1 ">
+													<img class="img-thumbnail img-responsive " src="images/zju.jpeg ">
+												</div>
+												<div class="col-md-11 ">
+													<h4 class="featurette-heading ">  Zhejiang University, Hangzhou, Dec. 2013 - July 2014 </h4>
+													<h5> RGB-D Real-time Reconstruction in Extended Scale </h5>
+													<h5> Mentor: <a href="http://www.cad.zju.edu.cn/home/gfzhang/ ", target="_blank ">Prof. Guofeng Zhang</a></h5>
+												</div>
+											</div>
+
+											<!-- The end of work experience -->
+
+										<div align="center ">
+											<h3 id="projects ", class="page-header "> MISC. Activities </h3> </br>
+										</div>
+										<div class="row featurette ">
+												<h4 class="featurette-heading ">  Teaching assistant for <a href='https://www.cc.gatech.edu/classes/AY2018/cs7643_fall/'>CS 7643 Deep Learning</a>, Georgia Tech, Fall 2017 </h4>
+												<h5> Instructor: <a href='https://www.cc.gatech.edu/~dbatra/'> Prof. Dhruv Batra </a> </h5>
+												<br/>
+												<h4 class="featurette-heading ">  Teaching assistant for <a href='https://www.cc.gatech.edu/~hays/compvision/'>CS 4476 / 6476 Computer Vision</a>, Georgia Tech, Fall 2016 </h4>
+												<h5>Instructor: <a href='https://www.cc.gatech.edu/~hays/'> Prof. James Hays </a> </h5>
+												<br/>
+												<h4 class="featurette-heading ">  Vice President in Public Relation for <a href='http://robograds.gatech.edu/'> RoboGrads</a>, Georgia Tech, Fall 2016 - Spring 2017 </h4>
+												<br/>
+												<h4 class="featurette-heading ">  Organizer for <a href='https://groups.google.com/forum/#!forum/gt-cv-readinggroup'> GT Computer Vision Reading Group</a>, Georgia Tech, Spring 2015 - Present </h4>
+												I started to organize the CPL reading group as a computer vision research discussion group across <a href='https://www.cc.gatech.edu/cpl/'> Computational Perception Lab (CPL) </a> since 2015, and now there have been an active particaption from students in computer vision research in different labs across the campus. If you are interested to join or receive future notifications, please join our <a href='https://groups.google.com/forum/#!forum/gt-cv-readinggroup'> google group </a> (It's open access, you can enroll yourself with your gmail account).
+											</div>
+
+										<!------------------------------------------------>
+										<!-- This is for all the social network account -->
+										<!------------------------------------------------>
+										<hr class="featurette-divider "> </hr>
+										<div class="row featurette ">
+											<div class="row ">
+
+												<div class="col-md-2 "> <!-- not determined--></div>
+
+												<div class = "col-md-2 ">
+													<p class = 'text-center'>
+														<a href = 'https://github.com/lvzhaoyang', target='_blank '><i class="fa fa-github-square fa-5x aria-hidden="true"
+	 " style="color:rgb(0,0,0) "></i></a>
+													</p>
+												</div>
+
+												<div class="col-md-2 ">
+													<!-- for Linkedin -->
+													<p class = "text-center ">
+														<a href = "https://www.linkedin.com/in/zhaoyang-lv-63b27151?trk=nav_responsive_tab_profile_pic
+	 ", target = "_blank "> <i class="fa fa-linkedin-square fa-5x " style="color:rgb(0,123,182) "> </i> </a>
+													</p>
+												</div>
+
+												<div class = "col-md-2 ">
+													<!-- for Facebook-->
+													<p class = "text-center ">
+														<a href = "https://www.facebook.com/zhaoyang.lv.9 ", target = "_blank "> <i class="fa fa-facebook-square
+	 fa-5x " style="color:rgb(59,89,152) "> </i> </a>
+													</p>
+												</div>
+
+												<!-- <div class="col-md-2 ">
+													<!-- for Google+ -->
+													<!-- <p class = "text-center ">
+														<a href = "https://plus.google.com/+ZhaoyangLvSLAM/posts ", target = "_blank "> <i class="fa fa-google-plus-square
+	 fa-5x " style="color:rgb(211,72,54) "> </i> </a>
+													</p> -->
+												<!-- </div> -->
+
+												<div class="col-md-2 ">
+													<!-- for Youtube channel-->
+													<p class = "text-center ">
+														<a href = "https://www.youtube.com/channel/UCx-DbdC03CZiQqMhtliAwhg ", target = "_blank "> <i class="fa fa-youtube-square
+	 fa-5x " style="color:rgb(229,45,39) "> </i> </a>
+													</p>
+												</div>
+
+												<div class="col-md-2 "> <!-- not determined--></div>
+											</div>
+
+											<hr class="featurette-divider ">
+
+											<p class="pull-right ">
+												<a href="# "> Back to top <i class="fa fa-long-arrow-up "></i> </a>
+											</p>
+											<p>
+												&copy; Zhaoyang Lv. &middot; <a href="# ">Contact</a> &middot;</a>
+											</p>
+
+										</div>
+									</div>
+
+									<!-- end of the footer-->
+
+											<!-- Bootstrap core JavaScript
+												================================================== -->
+												<!-- Placed at the end of the document so the pages load faster -->
+												<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js "></script>
+												<script src="../../dist/js/bootstrap.min.js "></script>
+											</body>
+											</html>
