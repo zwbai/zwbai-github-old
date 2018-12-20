@@ -1,8 +1,9 @@
-# [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
+# [Personal Website - Resume](https://startbootstrap.com/template-overviews/resume/)
 
-[Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
+This is a resume and CV site based on [Bootstrap](http://getbootstrap.com/) and
+ [Start Bootstrap](http://startbootstrap.com/). 
 
-## Preview
+<!-- ## Preview
 
 [![Resume Preview](https://startbootstrap.com/assets/img/templates/resume.jpg)](https://blackrockdigital.github.io/startbootstrap-resume/)
 
@@ -67,7 +68,7 @@ Start Bootstrap was created by and is maintained by **[David Miller](http://davi
 * https://twitter.com/davidmillerskt
 * https://github.com/davidtmiller
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat). -->
 
 ## Copyright and License
 
